@@ -51,6 +51,8 @@ async def service_msg(bot,msg):
      await bot.delete_messages(msg.chat.id,msg.id) 
     
 
+    
+
 
 print("bot started")
 bot.run()
